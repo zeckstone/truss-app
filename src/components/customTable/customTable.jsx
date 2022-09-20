@@ -7,6 +7,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import './customTable.scss';
 import { arrangeDigits, getWaterSurfaceArea, sortByPlanetName } from '../../utils/utils';
+import Clock from '../clock/clock';
 
 const CustomTable = ({ data }) => {
   const rows = data.sort(sortByPlanetName);
@@ -48,6 +49,7 @@ const CustomTable = ({ data }) => {
           ))}
         </TableBody>
       </Table>
+      <Clock/>
     </TableContainer>
   );
 }

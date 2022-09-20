@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+div {
+  display: block;
+}
+
+.pane-content {
+  text-align: center;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 100%;
+}
+
+.left-pane {
+  background-color: #222222;
+  color: #03d8ff;
+}
+
+.right-pane {
+  background-color: #03d8ff;
+}
+
+.wrapper {
+  height: 100vh;
+}
